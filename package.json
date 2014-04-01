@@ -1,0 +1,14 @@
+{
+	"name": "groupon-solar-system",
+	"description": "Solar System Simulator",
+	"version": "0.0.1",
+	"private": true,
+	"quizUrl": "http://rubyquiz.strd6.com/quizzes/227-solar-system",
+	"dependencies": {
+		"async": "*",
+		"express": "3.x",
+		"moment": "*",
+		"request": ">=2.34",
+		"underscore": "*"
+	}
+}

@@ -1,0 +1,49 @@
+{
+	"url": "http://ssd.jpl.nasa.gov/horizons.cgi#top",
+	"planetRefs": [
+		{ "id": "MB:199",  "name": "Mercury" },
+		{ "id": "MB:299",  "name": "Venus" },
+		{ "id": "MB:499",  "name": "Mars" },
+		{ "id": "MB:599",  "name": "Jupiter" },
+		{ "id": "MB:699",  "name": "Saturn" },
+		{ "id": "MB:799",  "name": "Uranus" },
+		{ "id": "MB:899",  "name": "Neptune" },
+		{ "id": "MB:999",  "name": "Pluto" }
+	],
+	"prepRequests": [{
+	    "display": "TEXT",
+	    "set_display": "Use Selection Above",
+	    ".cgifields": "display"
+	},{
+		"table_type": "OBSERVER",
+		"set_table_type": "Use Selection Above",
+		".cgifields": "table_type"
+	},{
+		"loc_list": "399;;San Francisco;CA",
+		"s_pick_loc": "Use Selected Location",
+		".cgifields": "loc_list"
+	},{
+		"q_list": "20",
+		"set_table": "Use Selected Settings",
+		"time_fmt": "CAL",
+		"time_digits": "MINUTES",
+		"ang_format": "HMS",
+		"output_units": "KM-S",
+		"range_units": "AU",
+		"apparent": "AIRLESS",
+		"airmass": "",
+		"elev_max": "",
+		"solar_elong_min": "0",
+		"solar_elong_max": "180",
+		"rts_flag": "NO",
+		"ref_system": "J2000",
+		"csv_format": "YES",
+		"obj_data": "NO",
+		"set_table_settings": "1",
+		".cgifields": "extra_prec",
+		".cgifields": "suppress_range_rate",
+		".cgifields": "skip_daylight",
+		".cgifields": "obj_data",
+		".cgifields": "csv_format"
+	}]	
+}
